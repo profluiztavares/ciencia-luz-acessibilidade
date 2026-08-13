@@ -1,0 +1,117 @@
+/* Configurações Gerais e Acessibilidade (Homem-Aranha Theme: Alto Contraste) */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Fonte sem serifa para melhor leitura */
+    line-height: 1.6;
+    background-color: #0b0e14; /* Fundo bem escuro para alto contraste */
+    color: #ffffff; /* Texto branco */
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #d1121d; /* Vermelho Homem-Aranha */
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 6px solid #0055ff; /* Azul Homem-Aranha */
+    border-radius: 8px 8px 0 0;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.author-info {
+    font-size: 1.2rem;
+    background-color: #000000;
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #161b22;
+    padding: 30px;
+    border-radius: 8px;
+    border: 3px solid #0055ff;
+}
+
+/* Seções */
+section {
+    margin-bottom: 35px;
+}
+
+h2 {
+    color: #ff3333; /* Vermelho destacado */
+    font-size: 1.6rem;
+    border-bottom: 2px solid #0055ff;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #f0f0f0;
+}
+
+/* Imagem */
+.image-section {
+    text-align: center;
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 4px solid #d1121d;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Glossário */
+.glossary-list dt {
+    font-size: 1.2rem;
+    color: #4d94ff; /* Azul vibrante */
+    margin-top: 15px;
+}
+
+.glossary-list dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+}
+
+/* Links Acessíveis com Alto Contraste */
+a {
+    color: #ffff00; /* Amarelo de alto contraste para destacar links */
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:hover, a:focus {
+    color: #ffffff;
+    background-color: #0055ff;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #d1121d;
+    color: #ffffff;
+    margin-top: 30px;
+    border-radius: 0 0 8px 8px;
+    font-weight: bold;
+}
